@@ -84,10 +84,11 @@ private fun initNashidSDK(mainActivity: MainActivity) {
 
         override fun onResultData(jsonObject: JSONObject?, scannedDocType: String?) {
             Log.d("MainActivity", "onResultData: " + jsonObject)
-
         }
 
         override fun onFailure() {
+            Log.d("MainActivity", "onFailure: ")
+
         }
     }
 // Check if resultListener is not null
