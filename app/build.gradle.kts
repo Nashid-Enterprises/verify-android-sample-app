@@ -66,5 +66,8 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
-    implementation("com.nashid.verifysdk:idv:1.0")
+
+    implementation("com.github.Nashid-Enterprises:verify-android-sdk-public:1.0@aar") {
+        setTransitive(true)
+    }
 }

@@ -10,9 +10,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven {
-            url = uri("https://maven.pkg.github.com/Nashid-Enterprises/verify-android-sdk")
-        }
+        maven { url =uri("https://jitpack.io") }
     }
 }
 

@@ -14,6 +14,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.sdksample.ui.theme.SDKSampleTheme
 import com.kyc.nashidmrz.NashidSDK
 import com.kyc.nashidmrz.SDKIntListener
+import com.kyc.nashidmrz.mrtd2.activity.CameraXLivePreviewActivity
+import com.kyc.nashidmrz.mrtd2.activity.SelectDocumentActivity
 import com.kyc.nashidmrz.mrtd2.resultcallback.ResultListener
 import org.json.JSONObject
 
