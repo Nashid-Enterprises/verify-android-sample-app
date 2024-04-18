@@ -57,6 +57,7 @@ private fun initNashidSDK(mainActivity: MainActivity) {
 
     val sdkInstance = NashidSDK.getInstance()
     val sdkIntListener= object : SDKIntListener {
+
         override fun onInitFail() {
             Log.d("MainActivity", "onInitFail: ")
         }
