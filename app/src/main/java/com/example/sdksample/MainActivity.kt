@@ -20,8 +20,6 @@ import androidx.compose.ui.unit.dp
 import com.example.sdksample.ui.theme.SDKSampleTheme
 import com.kyc.nashidmrz.NashidSDK
 import com.kyc.nashidmrz.SDKIntListener
-import com.kyc.nashidmrz.mrtd2.activity.CameraXLivePreviewActivity
-import com.kyc.nashidmrz.mrtd2.activity.SelectDocumentActivity
 import com.kyc.nashidmrz.mrtd2.resultcallback.ResultListener
 import org.json.JSONObject
 
@@ -61,14 +59,6 @@ fun Greeting(name: String, resultData: JSONObject?, modifier: Modifier = Modifie
         )
     }
 }
-
-//@Preview(showBackground = true)
-//@Composable
-//fun GreetingPreview() {
-//    SDKSampleTheme {
-//        Greeting("Android")
-//    }
-//}
 
 private fun initNashidSDK(mainActivity: MainActivity, onUpdateResultData: (JSONObject?) -> Unit) {
 
@@ -111,6 +101,7 @@ private fun initNashidSDK(mainActivity: MainActivity, onUpdateResultData: (JSONO
 
         }
     }
-// Check if resultListener is not null
+
+//// Check if resultListener is not null
     sdkInstance.setResultListener(resultListener)
 }
