@@ -199,10 +199,4 @@ Here is a sample response
 *   Parameters:
     *    `activity:` The context of the Andorid application.
 
-  
 
-To configure feature and UI settings, utilize the NashidSDK class as demonstrated in the examples provided.
-
-  
-
-**Here is sample app:** https://github.com/Nashid-Enterprises/verify-ios-sample-app
