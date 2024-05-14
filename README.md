@@ -176,10 +176,7 @@ Here is a sample response
 }
 
 ```
-  
-  *Note:* Type: Card/Passport
 
-  
 
 2.  documentScan(activity: Activity)
 
