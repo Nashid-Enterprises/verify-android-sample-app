@@ -23,8 +23,8 @@ This library encompasses four primary steps: OCR, NFC reader, liveness detection
 *   To install NashidSDK, add the following dependency to your app’s build.gradle file:
 
 ```
-implementation("com.github.Nashid-Enterprises:verify-android-sdk-public:1.6@aar") {
-   setTransitive(true)
+implementation("com.github.Nashid-Enterprises:verify-android-sdk-public:1.7@aar") {
+        setTransitive(true)
 }
 ```
 *   Also need to add this below line in main build.gradle/seting.gradle/setting.gradle.kts file
